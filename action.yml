@@ -1,9 +1,11 @@
 name: my-tool
 description: Demo github action
+
 inputs:
   file:
     description: file to be processed by my tool
     required: true
-  runs:
-    using: node16
-    main: tool.js
+
+runs:
+  using: node16
+  main: tool.js
