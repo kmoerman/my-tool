@@ -1,0 +1,22 @@
+{
+  "name": "my-tool",
+  "version": "1.0.0",
+  "description": "Demo repository for github action setup",
+  "main": "tool.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmoerman/my-tool.git"
+  },
+  "author": "Klaas Moerman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kmoerman/my-tool/issues"
+  },
+  "homepage": "https://github.com/kmoerman/my-tool#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
