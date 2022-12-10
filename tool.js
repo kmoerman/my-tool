@@ -12,6 +12,8 @@ else {
   console.log(`My tool without dependency; processing ${file}`)
 }
 
+console.log(process.argv)
+
 fs.readFile(file)
   .then( data => console.log(data.toString())
        , err  => { process.exitCode = 1; console.error(err) }
